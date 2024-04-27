@@ -12,7 +12,7 @@ import techscript.pageObjects.LandingPage;
 import java.time.Duration;
 import java.util.List;
 import java.util.Optional;
-
+//This is a standalone test which performs end to end automation
 public class StandAloneTest {
     public static void main(String[] args) {
         WebDriver driver=new FirefoxDriver();
