@@ -15,6 +15,7 @@ import java.util.Optional;
 //This is a standalone test which performs end to end automation
 public class StandAloneTest {
     public static void main(String[] args) {
+        /*Intialize web driver and do the common settings*/
         WebDriver driver=new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
