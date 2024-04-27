@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Place Order Test">
+        <classes>
+            <class name="techscript.tests.ErrorValidationsTest"/>
+        </classes>
+    </test>
+    <test name="Error Validation Test">
+        <classes>
+            <class name="techscript.tests.PlaceOrderTest"/>
+        </classes>
+    </test>
+</suite>
